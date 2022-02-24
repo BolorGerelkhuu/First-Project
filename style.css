@@ -1,5 +1,6 @@
 
 /* This was to make my whole background 1 color */
+
 *{
   background-color: #fff4f1;
 }
@@ -16,22 +17,26 @@ header h1,h2,h3 {
   font-family: cursive, Times New Roman;
   color: black;
   }
+/* This is to make boarders between sections */
+hr{
+  height: 3px;
+  padding: .5px ;
+  
+  
+}
 /* I wanted my title to be bigger so this is to make it bigger */
 h1{
   font-size: 50px;
+  padding:25px;
 }
 
 /* this was to make my paragraph and my list all one style */
-p,ol {
+p,ol,ul {
   font-size: 18px;
   font-family: cursive, Times New Roman;
   text-align: center;
 }
-/* i seperated this so that I can have it not centered */
-ul{
-  font-size: 18px;
-  font-family: cursive, Times New Roman;
-}
+
 /* This is my footer*/
 footer p{
   background-color: grey;
