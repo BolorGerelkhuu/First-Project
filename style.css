@@ -31,9 +31,12 @@ h1{
 }
 
 /* this was to make my paragraph and my list all one style */
-p,ol,ul {
+p,ol {
   font-size: 18px;
   font-family: cursive, Times New Roman;
+  text-align: center;
+}
+ul{
   text-align: center;
 }
 
